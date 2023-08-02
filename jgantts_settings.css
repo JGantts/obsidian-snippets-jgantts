@@ -41,4 +41,13 @@ settings:
 
             - radix-bronze
             - radix-gold
+
+            - nyanza
+
+    -
+        id: color-active
+        title: Activate
+        description: Activates the previous setting proplerly.
+        type: class-toggle
+        default: true
 */
