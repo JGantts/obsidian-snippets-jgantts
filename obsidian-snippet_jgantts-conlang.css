@@ -58,6 +58,13 @@ body.radix-amber {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-blue {
@@ -97,6 +104,13 @@ body.radix-blue {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-bronze {
@@ -136,6 +150,13 @@ body.radix-bronze {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-brown {
@@ -175,6 +196,13 @@ body.radix-brown {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-crimson {
@@ -214,6 +242,13 @@ body.radix-crimson {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-cyan {
@@ -253,6 +288,13 @@ body.radix-cyan {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-gold {
@@ -292,6 +334,13 @@ body.radix-gold {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-grass {
@@ -331,6 +380,13 @@ body.radix-grass {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-green {
@@ -370,6 +426,13 @@ body.radix-green {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-indigo {
@@ -409,6 +472,13 @@ body.radix-indigo {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-lime {
@@ -448,6 +518,13 @@ body.radix-lime {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-mint {
@@ -487,6 +564,13 @@ body.radix-mint {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-orange {
@@ -526,6 +610,13 @@ body.radix-orange {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-pink {
@@ -565,6 +656,13 @@ body.radix-pink {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-plum {
@@ -604,6 +702,13 @@ body.radix-plum {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-purple {
@@ -643,6 +748,13 @@ body.radix-purple {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-red {
@@ -682,6 +794,13 @@ body.radix-red {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-sky {
@@ -721,6 +840,13 @@ body.radix-sky {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-teal {
@@ -760,6 +886,13 @@ body.radix-teal {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-tomato {
@@ -799,6 +932,13 @@ body.radix-tomato {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-violet {
@@ -838,6 +978,13 @@ body.radix-violet {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body.radix-yellow {
@@ -877,6 +1024,13 @@ body.radix-yellow {
   --color-accent: var(--blue11);
   --color-accent-1: var(--blue9);
   --color-accent-2: var(--purple10);
+
+  --background-primary: var(--radixPrimary5);
+  --background-secondary: var(--radixPrimary1);
+  
+  --background-modifier-border: var(--radixPrimary8);
+  --background-modifier-border-hover: var(--cradixPrimary9);
+  --background-modifier-border-focus: var(--cradixPrimary10);
 }
 
 body {
