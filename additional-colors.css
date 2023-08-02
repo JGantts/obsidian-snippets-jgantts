@@ -12,3 +12,26 @@
   --dark-green: rgb(81, 94, 61);
   --dark-green-2: rgb(75, 86, 57);
 }
+
+body.nyanza {
+  --primary1: var(--nyanza);
+  --primary2: var(--nyanza-2);
+  --primary3: var(--tea-green);
+  --primary4: var(--tea-green-2);
+  --primary5: var(--olivine);
+  --primary6: var(--olivine-2);
+  --primary7: var(--olivine-3);
+  --primary8: var(--moss-green);
+  --primary9: var(--reseda-green);
+  --primary10: var(--reseda-green-2);
+  --primary11: var(--dark-green);
+  --primary12: var(--dark-green-2);
+/*  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);*/
+}
