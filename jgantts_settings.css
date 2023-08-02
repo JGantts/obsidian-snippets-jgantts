@@ -1,0 +1,44 @@
+/* @settings
+
+name: JGantts Conlang
+id: jgantts-conlang
+settings:
+    - 
+        id: welcome
+        title: Welcome
+        type: info-text
+    -
+        id: thanks
+        title: Thank you for trying this theme.
+        type: info-text
+    - 
+        id: radixuiclass
+        title: Base Color
+        type: class-select
+        allowEmpty: false
+        default: radix-bronze
+        options:
+            - radix-tomato
+            - radix-red
+            - radix-crimson
+            - radix-pink
+            - radix-plum
+            - radix-purple
+            - radix-violet
+            - radix-indigo
+            - radix-blue
+            - radix-cyan
+            - radix-teal
+            - radix-green
+            - radix-grass
+            - radix-orange
+            - radix-brown
+            - radix-sky
+            - radix-mint
+            - radix-lime
+            - radix-yellow
+            - radix-amber
+
+            - radix-bronze
+            - radix-gold
+*/

@@ -9,25 +9,875 @@ Junicode-BoldCondensed
 Junicode-Bold
 */
 
-
 body {
   --font-text: 'Junicode';
-  --text-normal: blue;
 }
 
-body.theme-dark {
-  --text-normal: red;
+body.radix-amber {
+  --radixPrimary1: var(--amber1);
+  --radixPrimary2: var(--amber2);
+  --radixPrimary3: var(--amber3);
+  --radixPrimary4: var(--amber4);
+  --radixPrimary5: var(--amber5);
+  --radixPrimary6: var(--amber6);
+  --radixPrimary7: var(--amber7);
+  --radixPrimary8: var(--amber8);
+  --radixPrimary9: var(--amber9);
+  --radixPrimary10: var(--amber10);
+  --radixPrimary11: var(--amber11);
+  --radixPrimary12: var(--amber12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
 }
 
-.markdown-rendered {
-  --text-normal: gray;
+body.radix-blue {
+  --radixPrimary1: var(--blue1);
+  --radixPrimary2: var(--blue2);
+  --radixPrimary3: var(--blue3);
+  --radixPrimary4: var(--blue4);
+  --radixPrimary5: var(--blue5);
+  --radixPrimary6: var(--blue6);
+  --radixPrimary7: var(--blue7);
+  --radixPrimary8: var(--blue8);
+  --radixPrimary9: var(--blue9);
+  --radixPrimary10: var(--blue10);
+  --radixPrimary11: var(--blue11);
+  --radixPrimary12: var(--blue12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
 }
 
-.theme-dark .markdown-rendered {
-  --text-normal: purple;
+body.radix-bronze {
+  --radixPrimary1: var(--bronze1);
+  --radixPrimary2: var(--bronze2);
+  --radixPrimary3: var(--bronze3);
+  --radixPrimary4: var(--bronze4);
+  --radixPrimary5: var(--bronze5);
+  --radixPrimary6: var(--bronze6);
+  --radixPrimary7: var(--bronze7);
+  --radixPrimary8: var(--bronze8);
+  --radixPrimary9: var(--bronze9);
+  --radixPrimary10: var(--bronze10);
+  --radixPrimary11: var(--bronze11);
+  --radixPrimary12: var(--bronze12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
 }
 
-*/
+body.radix-brown {
+  --radixPrimary1: var(--brown1);
+  --radixPrimary2: var(--brown2);
+  --radixPrimary3: var(--brown3);
+  --radixPrimary4: var(--brown4);
+  --radixPrimary5: var(--brown5);
+  --radixPrimary6: var(--brown6);
+  --radixPrimary7: var(--brown7);
+  --radixPrimary8: var(--brown8);
+  --radixPrimary9: var(--brown9);
+  --radixPrimary10: var(--brown10);
+  --radixPrimary11: var(--brown11);
+  --radixPrimary12: var(--brown12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-crimson {
+  --radixPrimary1: var(--crimson1);
+  --radixPrimary2: var(--crimson2);
+  --radixPrimary3: var(--crimson3);
+  --radixPrimary4: var(--crimson4);
+  --radixPrimary5: var(--crimson5);
+  --radixPrimary6: var(--crimson6);
+  --radixPrimary7: var(--crimson7);
+  --radixPrimary8: var(--crimson8);
+  --radixPrimary9: var(--crimson9);
+  --radixPrimary10: var(--crimson10);
+  --radixPrimary11: var(--crimson11);
+  --radixPrimary12: var(--crimson12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-cyan {
+  --radixPrimary1: var(--cyan1);
+  --radixPrimary2: var(--cyan2);
+  --radixPrimary3: var(--cyan3);
+  --radixPrimary4: var(--cyan4);
+  --radixPrimary5: var(--cyan5);
+  --radixPrimary6: var(--cyan6);
+  --radixPrimary7: var(--cyan7);
+  --radixPrimary8: var(--cyan8);
+  --radixPrimary9: var(--cyan9);
+  --radixPrimary10: var(--cyan10);
+  --radixPrimary11: var(--cyan11);
+  --radixPrimary12: var(--cyan12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-gold {
+  --radixPrimary1: var(--gold1);
+  --radixPrimary2: var(--gold2);
+  --radixPrimary3: var(--gold3);
+  --radixPrimary4: var(--gold4);
+  --radixPrimary5: var(--gold5);
+  --radixPrimary6: var(--gold6);
+  --radixPrimary7: var(--gold7);
+  --radixPrimary8: var(--gold8);
+  --radixPrimary9: var(--gold9);
+  --radixPrimary10: var(--gold10);
+  --radixPrimary11: var(--gold11);
+  --radixPrimary12: var(--gold12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-grass {
+  --radixPrimary1: var(--grass1);
+  --radixPrimary2: var(--grass2);
+  --radixPrimary3: var(--grass3);
+  --radixPrimary4: var(--grass4);
+  --radixPrimary5: var(--grass5);
+  --radixPrimary6: var(--grass6);
+  --radixPrimary7: var(--grass7);
+  --radixPrimary8: var(--grass8);
+  --radixPrimary9: var(--grass9);
+  --radixPrimary10: var(--grass10);
+  --radixPrimary11: var(--grass11);
+  --radixPrimary12: var(--grass12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-green {
+  --radixPrimary1: var(--green1);
+  --radixPrimary2: var(--green2);
+  --radixPrimary3: var(--green3);
+  --radixPrimary4: var(--green4);
+  --radixPrimary5: var(--green5);
+  --radixPrimary6: var(--green6);
+  --radixPrimary7: var(--green7);
+  --radixPrimary8: var(--green8);
+  --radixPrimary9: var(--green9);
+  --radixPrimary10: var(--green10);
+  --radixPrimary11: var(--green11);
+  --radixPrimary12: var(--green12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-indigo {
+  --radixPrimary1: var(--indigo1);
+  --radixPrimary2: var(--indigo2);
+  --radixPrimary3: var(--indigo3);
+  --radixPrimary4: var(--indigo4);
+  --radixPrimary5: var(--indigo5);
+  --radixPrimary6: var(--indigo6);
+  --radixPrimary7: var(--indigo7);
+  --radixPrimary8: var(--indigo8);
+  --radixPrimary9: var(--indigo9);
+  --radixPrimary10: var(--indigo10);
+  --radixPrimary11: var(--indigo11);
+  --radixPrimary12: var(--indigo12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-lime {
+  --radixPrimary1: var(--lime1);
+  --radixPrimary2: var(--lime2);
+  --radixPrimary3: var(--lime3);
+  --radixPrimary4: var(--lime4);
+  --radixPrimary5: var(--lime5);
+  --radixPrimary6: var(--lime6);
+  --radixPrimary7: var(--lime7);
+  --radixPrimary8: var(--lime8);
+  --radixPrimary9: var(--lime9);
+  --radixPrimary10: var(--lime10);
+  --radixPrimary11: var(--lime11);
+  --radixPrimary12: var(--lime12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-mint {
+  --radixPrimary1: var(--mint1);
+  --radixPrimary2: var(--mint2);
+  --radixPrimary3: var(--mint3);
+  --radixPrimary4: var(--mint4);
+  --radixPrimary5: var(--mint5);
+  --radixPrimary6: var(--mint6);
+  --radixPrimary7: var(--mint7);
+  --radixPrimary8: var(--mint8);
+  --radixPrimary9: var(--mint9);
+  --radixPrimary10: var(--mint10);
+  --radixPrimary11: var(--mint11);
+  --radixPrimary12: var(--mint12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-orange {
+  --radixPrimary1: var(--orange1);
+  --radixPrimary2: var(--orange2);
+  --radixPrimary3: var(--orange3);
+  --radixPrimary4: var(--orange4);
+  --radixPrimary5: var(--orange5);
+  --radixPrimary6: var(--orange6);
+  --radixPrimary7: var(--orange7);
+  --radixPrimary8: var(--orange8);
+  --radixPrimary9: var(--orange9);
+  --radixPrimary10: var(--orange10);
+  --radixPrimary11: var(--orange11);
+  --radixPrimary12: var(--orange12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-pink {
+  --radixPrimary1: var(--pink1);
+  --radixPrimary2: var(--pink2);
+  --radixPrimary3: var(--pink3);
+  --radixPrimary4: var(--pink4);
+  --radixPrimary5: var(--pink5);
+  --radixPrimary6: var(--pink6);
+  --radixPrimary7: var(--pink7);
+  --radixPrimary8: var(--pink8);
+  --radixPrimary9: var(--pink9);
+  --radixPrimary10: var(--pink10);
+  --radixPrimary11: var(--pink11);
+  --radixPrimary12: var(--pink12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-plum {
+  --radixPrimary1: var(--plum1);
+  --radixPrimary2: var(--plum2);
+  --radixPrimary3: var(--plum3);
+  --radixPrimary4: var(--plum4);
+  --radixPrimary5: var(--plum5);
+  --radixPrimary6: var(--plum6);
+  --radixPrimary7: var(--plum7);
+  --radixPrimary8: var(--plum8);
+  --radixPrimary9: var(--plum9);
+  --radixPrimary10: var(--plum10);
+  --radixPrimary11: var(--plum11);
+  --radixPrimary12: var(--plum12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-purple {
+  --radixPrimary1: var(--purple1);
+  --radixPrimary2: var(--purple2);
+  --radixPrimary3: var(--purple3);
+  --radixPrimary4: var(--purple4);
+  --radixPrimary5: var(--purple5);
+  --radixPrimary6: var(--purple6);
+  --radixPrimary7: var(--purple7);
+  --radixPrimary8: var(--purple8);
+  --radixPrimary9: var(--purple9);
+  --radixPrimary10: var(--purple10);
+  --radixPrimary11: var(--purple11);
+  --radixPrimary12: var(--purple12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-red {
+  --radixPrimary1: var(--red1);
+  --radixPrimary2: var(--red2);
+  --radixPrimary3: var(--red3);
+  --radixPrimary4: var(--red4);
+  --radixPrimary5: var(--red5);
+  --radixPrimary6: var(--red6);
+  --radixPrimary7: var(--red7);
+  --radixPrimary8: var(--red8);
+  --radixPrimary9: var(--red9);
+  --radixPrimary10: var(--red10);
+  --radixPrimary11: var(--red11);
+  --radixPrimary12: var(--red12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-sky {
+  --radixPrimary1: var(--sky1);
+  --radixPrimary2: var(--sky2);
+  --radixPrimary3: var(--sky3);
+  --radixPrimary4: var(--sky4);
+  --radixPrimary5: var(--sky5);
+  --radixPrimary6: var(--sky6);
+  --radixPrimary7: var(--sky7);
+  --radixPrimary8: var(--sky8);
+  --radixPrimary9: var(--sky9);
+  --radixPrimary10: var(--sky10);
+  --radixPrimary11: var(--sky11);
+  --radixPrimary12: var(--sky12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-teal {
+  --radixPrimary1: var(--teal1);
+  --radixPrimary2: var(--teal2);
+  --radixPrimary3: var(--teal3);
+  --radixPrimary4: var(--teal4);
+  --radixPrimary5: var(--teal5);
+  --radixPrimary6: var(--teal6);
+  --radixPrimary7: var(--teal7);
+  --radixPrimary8: var(--teal8);
+  --radixPrimary9: var(--teal9);
+  --radixPrimary10: var(--teal10);
+  --radixPrimary11: var(--teal11);
+  --radixPrimary12: var(--teal12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-tomato {
+  --radixPrimary1: var(--tomato1);
+  --radixPrimary2: var(--tomato2);
+  --radixPrimary3: var(--tomato3);
+  --radixPrimary4: var(--tomato4);
+  --radixPrimary5: var(--tomato5);
+  --radixPrimary6: var(--tomato6);
+  --radixPrimary7: var(--tomato7);
+  --radixPrimary8: var(--tomato8);
+  --radixPrimary9: var(--tomato9);
+  --radixPrimary10: var(--tomato10);
+  --radixPrimary11: var(--tomato11);
+  --radixPrimary12: var(--tomato12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-violet {
+  --radixPrimary1: var(--violet1);
+  --radixPrimary2: var(--violet2);
+  --radixPrimary3: var(--violet3);
+  --radixPrimary4: var(--violet4);
+  --radixPrimary5: var(--violet5);
+  --radixPrimary6: var(--violet6);
+  --radixPrimary7: var(--violet7);
+  --radixPrimary8: var(--violet8);
+  --radixPrimary9: var(--violet9);
+  --radixPrimary10: var(--violet10);
+  --radixPrimary11: var(--violet11);
+  --radixPrimary12: var(--violet12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
+
+body.radix-yellow {
+  --radixPrimary1: var(--yellow1);
+  --radixPrimary2: var(--yellow2);
+  --radixPrimary3: var(--yellow3);
+  --radixPrimary4: var(--yellow4);
+  --radixPrimary5: var(--yellow5);
+  --radixPrimary6: var(--yellow6);
+  --radixPrimary7: var(--yellow7);
+  --radixPrimary8: var(--yellow8);
+  --radixPrimary9: var(--yellow9);
+  --radixPrimary10: var(--yellow10);
+  --radixPrimary11: var(--yellow11);
+  --radixPrimary12: var(--yellow12);
+  --color-base-00: var(--radixPrimary1);
+  --color-base-05: var(--radixPrimary2);
+  --color-base-10: var(--radixPrimary3);
+  --color-base-20: var(--radixPrimary4);
+  --color-base-25: var(--radixPrimary5);
+  --color-base-30: var(--radixPrimary6);
+  --color-base-35: var(--radixPrimary7);
+  --color-base-40: var(--radixPrimary8);
+  --color-base-50: var(--radixPrimary9);
+  --color-base-60: var(--radixPrimary10);
+  --color-base-70: var(--radixPrimary11);
+  --color-base-100: var(--radixPrimary12);
+  --color-red: var(--red10);
+  --color-orange:var(--orange10);
+  --color-yellow: var(--yellow10);
+  --color-green: var(--green10);
+  --color-cyan: var(--cyan10);
+  --color-blue: var(--blue10);
+  --color-purple: var(--purple10);
+  --color-pink: var(--pink10);
+
+  --color-accent: var(--blue11);
+  --color-accent-1: var(--blue9);
+  --color-accent-2: var(--purple10);
+}
 
 body {
   --table-column-first-border-width: 0;
@@ -36,6 +886,8 @@ body {
   --table-row-last-border-width: 0;
   --table-header-border-width: 0;
 }
+
+
 
 .markdown-preview-view td,
 .markdown-preview-view th {
@@ -50,5 +902,5 @@ body {
 
 .markdown-rendered thead tr > th {
   --table-header-border-color: #00000000;
-  border-bottom: #ffffff;
+  border-bottom: inherit;
 }
